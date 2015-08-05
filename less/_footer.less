@@ -1,0 +1,53 @@
+// footer
+
+.footer-container {
+	clear: both;
+	padding: 10px 0;
+	background: @brown;
+	font-family: @font-family-serif;
+	color: #FFF;
+	font-size: .8em;
+	line-height: 1.8;
+	.wrapper {
+		position: relative;
+	}
+	.credits {
+		margin-top: 0;
+	}
+	small {
+		
+		font-size: .8em;
+		line-height: 1.8;
+		&.grained {
+			float: right;
+		}
+	}
+	a {
+		color: #FFF;
+		text-decoration: none;
+	}
+	img {
+		width: auto;
+	}
+	.british-council {
+		position: absolute;
+		right: 5px;
+		top: 10px;
+		@media @mobile {
+			width: 50px;
+			img {
+				width: 100%;
+			}
+		}
+	}
+	.footer-nav {
+		font-family: @bold-sans-serif;
+		text-transform: uppercase;
+		margin:0 0 5px;
+		a {
+			text-decoration: none;
+			color: #FFF;
+			letter-spacing: 2px;
+		}
+	}
+}
