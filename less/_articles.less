@@ -11,9 +11,6 @@
 	margin: 0 0 10px;
 	color: @brown;
 	font-size: 15px;
-	@media @desktop {
-		color: #FFF;
-	}
 }
 
 .article-wrapper {
@@ -46,7 +43,7 @@
 			.article-block-content {
 				float: left;
 				.title {
-					margin-top: 35px;
+					//margin-top: 35px;
 				}
 			}
 			.article-block-secondary {
@@ -223,28 +220,40 @@
 
 .article-section {
 	.hero-article {
+		.image-overlay {
+			@media @desktop {
+				position: relative;
+				background: none;
+			}
+		}
 		.caption-title {
 			position: relative;
 			top: 0;
 			left: 0;
-		
 			@media @desktop {
-				position: absolute;
-			 	top: 30px;
-  				left: 60px;
+				position: relative;
+			 	top: 0px;
+  				left: 0px;
+  				width: 440px;
+  				color: #333;
+  				margin: 25px 0 0 35px;
+  				padding: 0;
 			}
 		}
 		.breaker {
 			@media @desktop {
 				width: 440px;
-		  		color: #FFF;
+		  		//color: #FFF;
+				p:last-child {
+					margin-bottom: 0;
+				}
 			}
 		}
 		.title {
 			color: @brown;
 			font-size: 28px;
 			@media @desktop {
-				color: #FFF;
+				//color: #FFF;
 				font-size: 40px;
 				line-height: 41px;
 				width: 440px;
