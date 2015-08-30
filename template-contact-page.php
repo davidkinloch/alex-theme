@@ -115,32 +115,8 @@ Template Name: Contact Page Template
                         </div>
                         <div class="section-block-item">
                             <div class="text-entry single-column">
-                                
-                                <form class="contact-form">
-                                    <div class="input-holder">
-                                        <label>Name</label>
-                                        <input type="text" placeholder="Name" />
-                                    </div>
-                                    <div class="input-holder">
-                                        <label>Email</label>
-                                        <input type="text" placeholder="Email" />
-                                    </div>
-                                    <div class="input-holder">
-                                        <label>Telephone</label>
-                                        <input type="text" placeholder="Telephone" />
-                                    </div>
-                                    <div class="input-holder">
-                                        <label>Subject</label>
-                                        <input type="text" placeholder="Subject" />
-                                    </div>
-                                    <div class="input-holder">
-                                        <label>Message</label>
-                                        <textarea placeholder="Message" ></textarea>
-                                    </div>
-                                    <div class="input-holder">
-                                        <input class="more more-green submit" type="submit" value="Send" />
-                                    </div>
-                                </form>
+                                <?php echo do_shortcode( '[contact-form-7 id="828" title="Contact form 1"]' ); ?>
+                               
                             </div>
                         </div>
                     </div><!-- section-block -->
