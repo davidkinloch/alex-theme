@@ -52,8 +52,8 @@
                     <ul class="social-nav-menu">
                         <li class="facebook"><a href="https://www.facebook.com/pages/Alexanders-College-Bawdsey/1601083530113315" target="_blank">Facebook</a></li>
                         <li class="twitter"><a href="https://twitter.com/Alexanders_Coll" target="_blank">Twitter</a></li>
-                        <li class="login desktop"><a href="/wordpress/wp-admin" target="_blank">Login</a></li></li>
-                        <li class="contact desktop"><a href="?page_id=321">Contact</a></li></li>
+                        <li class="login desktop"><a href="/wp-admin" target="_blank">Login</a></li></li>
+                        <li class="contact desktop"><a href="/?page_id=321">Contact</a></li></li>
                     </ul>
                 </nav>
                 <a href="/?page_id=219" class="more">All Our Stories</a>
