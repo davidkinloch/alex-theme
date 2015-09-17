@@ -214,7 +214,7 @@ add_action( 'init', 'revcon_change_post_object' );
  */
 function wps_recent_posts_dw() {
 ?>
-    <p><a href='/wordpress/wp-admin/post-new.php' class='button button-primary'>Start a New Project</a></p>
+    <p><a href='/wp-admin/post-new.php' class='button button-primary'>Start a New Project</a></p>
     <p>or</p>
     <p>Work on an existing project:</p>
    <ul>
