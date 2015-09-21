@@ -10,12 +10,12 @@
             <h2 class="title"><?php the_title(); ?></h2>
             <?php if(get_field('position')): ?>
                 <h3 class="subtitle"><?php the_field('position'); ?></h3>
-            <? endif; ?>
+            <?php endif; ?>
             <?php if(get_field('text')): ?>
                 <div class="text-entry">
                     <?php the_field('text'); ?>
                 </div>
-            <? endif; ?>
+            <?php endif; ?>
         </div>
     </div>
 </div>
