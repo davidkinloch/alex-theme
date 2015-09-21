@@ -58,7 +58,7 @@
                                     setup_postdata($post);
                                 ?>
                                 <li class="team-list-item">
-                                    <a class="team-list-link" href="<? the_permalink(); ?>"><?php the_title(); ?></a>       
+                                    <a class="team-list-link" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>       
                                 </li>
                                 <?php endforeach; ?>
                             <?php endif; ?>
