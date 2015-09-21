@@ -1,5 +1,5 @@
-
-<div class="module wrapper team-single  ">
+<?php get_header(); ?>
+<div class="module wrapper team-single">
     <div class="section-block featured-bio" id="anchor">
         <?php $image = get_field('image'); if( !empty($image) ): $url = $image['url']; $size = 'section-image'; $thumb = $image['sizes'][ $size ];  ?>
         <div class="section-block-item team-photo">
@@ -19,3 +19,4 @@
         </div>
     </div>
 </div>
+<?php get_footer(); ?>

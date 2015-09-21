@@ -701,7 +701,7 @@ $(".team-list-link").click(function() {
 	 $(this).addClass("active").parent().siblings().children(".team-list-link").removeClass("active");
   /* grabs URL from HREF attribute then adds an  */
   /* ID from the DIV I want to grab data from    */
-  var myUrl = $(this).attr("href");
+  var myUrl = $(this).attr("href") + " .team-single";
   $(".beamme").load(myUrl);
    return false;
   $(document).scrollTop( $("#anchor").offset().top + (-100) );  
