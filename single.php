@@ -46,10 +46,12 @@
                             <?php if (get_sub_field('select_your_section_template', 'option') == 'video') { ?>
                                 <div class="article-block">
                                     <div class="article-block-content">
-                                        <h2 class="title" id="early-life"><?php the_sub_field('section_title'); ?></h2>
+                                        <?php if ( get_sub_field('section_title') ): ?>
+                                            <h2 class="title" id="early-life"><?php the_sub_field('section_title'); ?></h2>
+                                        <?php endif; ?>
                                         <div class="text-entry">
                                             <div class="wp-caption alignleft">    
-                                                <?php if( in_array( 'vimeo', get_field('field_name') ) ) : ?>
+                                                <?php if( in_array( 'vimeo', get_sub_field('embed_a_video') ) ) : ?>
                                                     <iframe style="width:100%;" height="315" src="https://player.vimeo.com/video/<?php the_sub_field('video_id');?>" frameborder="0" allowfullscreen></iframe>
                                                 <?php else: ?>
                                                     <iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/<?php the_sub_field('video_id');?>" frameborder="0" allowfullscreen></iframe>
