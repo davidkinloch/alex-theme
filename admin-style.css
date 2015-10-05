@@ -29,15 +29,19 @@
 
 }
 .acf-field-55311a405aea1 .acf-radio-list li {
-	width: 300px;
+	/*width: 25%;*/
 	display: inline-block;
 	margin-right: 20px;
+}
+
+.acf-field-55311a405aea1 .acf-radio-list li img {
+	width: 100%;
 }
 
 .acf-field-55311a405aea1 .acf-radio-list li:last-child {
 	margin-right: 0;
 }
-
+/*
 .acf-field-55311a405aea1 .acf-radio-list li label {
 	background: url(admin/text-left.jpg) no-repeat;
 	display: block;
@@ -57,6 +61,7 @@
 .acf-field-55311a405aea1 .acf-radio-list li:nth-child(3) label {
 	background: url(admin/article-text-only.jpg) no-repeat;
 }
+*/
 
 /* Remove Autor subtitle */
 .acf-field-55310b25553fa label {
