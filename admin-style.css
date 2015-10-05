@@ -1,3 +1,18 @@
+/* Page title */
+.post-type-post #titlewrap:before {
+	content: "Character Count 26";
+	display: block;
+	padding-left: 0px;
+}
+
+.acf-field-55705b4b4a260  label:after {
+	content: "Character Count 11";
+	display: block;
+	padding-left: 0px;
+	font-weight: normal;
+}
+
+
 /* Top Menu */
 #wp-admin-bar-new-content {
 	display: none;
@@ -151,7 +166,7 @@
 .acf-field-554774e244de9 .acf-radio-list li:nth-child(5) label {
 	background: url(admin/image-only.jpg) no-repeat;
 }
-*/
+*/git status
 
 /* Dashboard Widgit */
 #wps_recent_posts_dw h3, #wps_recent_posts_dw .handlediv{
