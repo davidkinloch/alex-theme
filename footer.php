@@ -18,7 +18,7 @@
                     <span>Tel: <span class="tel" itemprop="telephone">+44 (0)1394 411 633</span></span>
                     <p><a href="mailto:headmaster@alexanderscollege.co.uk" class="email" itemprop="email">headmaster@alexanderscollege.co.uk</a></p>
                 </div><!-- end of vCard -->
-                <a href="#" class="british-council">
+                <a href="http://www.britishcouncil.org/" class="british-council" target="_blank">
                     <img src="<?php bloginfo('template_url')?>/assets/build/british-council.jpg" alt="British Council" />
                 </a>
                 <div class="credits">
