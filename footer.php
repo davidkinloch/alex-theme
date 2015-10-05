@@ -1,7 +1,7 @@
 		<div class="footer-container">
             <footer class="wrapper site-footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
                 <ul class="footer-nav">
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="/contact">Contact</a></li>
                 </ul>
                 <div class="vcard" itemscope itemtype="http://schema.org/Organization">
                   <span class="org" itemprop="name">Alexanders College,</span>
