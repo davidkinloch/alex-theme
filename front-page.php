@@ -164,8 +164,9 @@
                     </div>
                     <?php endwhile; ?>
                 </div>
-
-                <div class="module hero-wrapper">
+                    
+                <!-- facilities -->
+                <div class="module hero-wrapper facilities-wrapper">
                     <figure class="hero hero-box-caption">
                         
                         <?php $image = get_field('campus_facilities_plan', 330); $url = $image['url']; $size = 'hero'; $thumb = $image['sizes'][ $size ]; if( !empty($image) ): ?>
