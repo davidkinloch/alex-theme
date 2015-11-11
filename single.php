@@ -220,9 +220,8 @@
     </div><!-- end of article template -->
         <div class="floaty-social-holder">
             <ul class="social-nav-menu">
-                <li class="facebook"><a href="http://www.facebook.com/sharer.php?s=100&amp;u=<?php the_permalink(); ?>" target="_blank" title="Share on Facebook" class="btn share-link link-facebook" rel="nofollow" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600,left=200,top=200');return false;">Facebook</a></li>
+                <li class="facebook"><a href="http://www.facebook.com/sharer.php?s=100&amp;p[url]=<?php the_permalink(); ?>" target="_blank" title="Share on Facebook" class="btn share-link link-facebook" rel="nofollow" data-ssbp-title="<?php the_title(); ?>" data-ssbp-url="<?php the_permalink(); ?>" data-ssbp-site="Facebook" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600,left=200,top=200');return false;">Facebook</a></li>
                 <li class="twitter"><a href="http://twitter.com/home?status=Reading <?php the_title(); ?> via <?php the_permalink(); ?>" target="_blank" title="Share on Twitter" class="btn share-link link-twitter" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600,left=200,top=200');return false;">Twitter</a></li>
-                <li class="weibo"><a href="http://service.weibo.com/share/share.php?url=<?php the_permalink(); ?>&title=<?php the_title(); ?>" target="_blank" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">Weibo</a></li>
                 <li class="google"><a href="https://plus.google.com/share?url=<?php the_permalink(); ?>" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">Google+</a></li>
             </ul>
         </div><!-- end of floaty holder -->
