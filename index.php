@@ -116,6 +116,11 @@
                         </div>
                         <?php endwhile; endif; ?>
                     </div><!-- ned hfeed container -->
+                    <?php the_posts_pagination( array(
+                        'mid_size'  => 2,
+                        'prev_text' => __( 'Newer Posts', 'textdomain' ),
+                        'next_text' => __( 'Older Posts', 'textdomain' ),
+                    ) ); ?>
                     <!--<a class="more more-articles">Load More Articles</a>-->
                 </div><!-- end of module -->
             </div><!-- end of main -->
