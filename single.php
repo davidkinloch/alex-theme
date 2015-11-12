@@ -169,7 +169,7 @@
                                 </div>
                                 <div class="article-credits">
                                     <?php the_content(); ?>
-                                    <p>We hope you enjoyed this article</p>
+                                    <p>We hope you enjoyed this article.</p>
                                 </div>
                                 <div class="article-smallprint">
                                     <p>All open access articles in Alexanders College Work are published under Creative Commons licenses and may be reproduced for non-profit purposes. We would ask as a courtesy, that any reproduction of this article is accompanied by an attribution to Alexanders College and to the student authors. Thank you.</p>
